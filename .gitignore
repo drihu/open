@@ -1,4 +1,6 @@
 # Created by https://github.com/drihu/poketask
+# drihu
+*.pstore
 
 # Ruby.gitignore
 *.gem
