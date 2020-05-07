@@ -25,10 +25,10 @@ get '/blog/:id' do
 end
 
 post '/blog/new' do
-  p params
   title = params['post-title']
   author = params['post-author']
+  img_url = params['post-img-url']
   text = params['post-text']
-  BlogPost.create(title, author, text)
+  BlogPost.create(title, author, img_url, text)
   redirect to('/')
 end

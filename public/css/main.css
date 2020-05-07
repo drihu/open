@@ -100,3 +100,19 @@ textarea.form-control {
   font-weight: 300;
   resize: none;
 }
+.form-submit {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #F4773D;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: "Montserrat";
+  text-align: center;
+}
+@media (min-width: 960px) {
+  .form-submit {
+    width: 400px;
+  }
+}
